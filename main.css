@@ -1,0 +1,53 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.container{
+    height: 100vh;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo{
+    font-size: 30px;
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+.piz{
+    font-size: 45px;
+    color: bisque;
+    font-weight: bold;
+}
+
+.list{
+    text-decoration: none;
+    display: flex;
+    list-style-type: none;
+
+}
+
+.list li{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.list li a{
+    text-decoration: none;
+   
+}
+
